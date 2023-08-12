@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 1.5em;
+    width: min(400px, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.success-img {
+    width: 80px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    align-self: start;
+    margin-bottom: .1em;
+}
+.title span {
+    display: block;
+}
+.text {
+    color: rgb(54, 56, 78);
+    font-size: 1em;
+}
+.btn-card {
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    color: #ffffff;
+    transition: .4s;
+    padding: 13px;
+    cursor: pointer;
+}
